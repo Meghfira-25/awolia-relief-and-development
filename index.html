@@ -1,0 +1,427 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A responsive Bootstrap recreation of the Awelia Relief & Development Organization design." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Awelia Relief & Development Organization</title>
+</head>
+
+<body>
+  <div class="topbar text-white d-none d-lg-block">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex gap-3 social-links" aria-label="Social media">
+        <a href="#contact" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#contact" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#contact" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        <a href="#contact" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
+      <div class="d-flex align-items-center gap-4">
+        <a href="#news" aria-label="Search our latest news"><i class="bi bi-search"></i></a>
+        <a href="#contact" class="top-donate">Donate</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 gap-md-3" href="#home">
+        <img src="logo.jpg" class="brand-logo" alt="Awelia organization emblem" />
+        <span class="brand-text">
+          <span class="amharic-name d-none d-lg-block">አወሊያ እርዳታና ልማት ድርጅት</span>
+          <strong>Awelia Relief &amp;<br class="d-sm-none" /> Development Organization</strong>
+        </span>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarLinks"
+        aria-controls="navbarLinks" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#institutions">Institutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impact">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item d-lg-none"><a class="nav-link fw-semibold" href="#contact">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row g-0 align-items-stretch hero-row">
+
+          <div class="col-md-7 d-flex align-items-center hero-copy-wrap">
+            <div class="hero-copy py-5 py-md-4 py-lg-5">
+              <div class="eyebrow mb-3">
+                HUMANITY <span>•</span> EDUCATION <span>•</span> DEVELOPMENT
+              </div>
+
+              <h1 id="hero-title">
+                Awelia Relief &amp;<br />Development Organization
+              </h1>
+
+              <p class="hero-description" id="about">
+                Together for stronger communities through education,
+                healthcare, and sustainable development. We serve people,
+                empower future generations, and build a more
+                compassionate society.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 gap-sm-3 mt-4">
+                <a class="btn btn-brand px-3 px-md-4" href="#institutions">
+                  <i class="bi bi-bank me-2"></i>Explore Institutions
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+
+                <a class="btn btn-outline-brand px-3 px-md-4" href="#impact">
+                  Learn More <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 hero-photo-wrap">
+            <img class="hero-photo" src="home.jpg"
+              alt="Healthcare worker assisting a community member" />
+          </div>
+
+        </div>
+      </div>
+      <span class="leaf-shape leaf-left" aria-hidden="true"></span>
+      <span class="leaf-shape leaf-right" aria-hidden="true"></span>
+    </section>
+
+    <!-- Institutions -->
+    <section class="section institutions py-5" id="institutions" aria-labelledby="institutions-title">
+      <div class="container">
+
+        <div class="text-center section-heading mx-auto mb-4">
+          <div class="section-kicker">— OUR INSTITUTIONS —</div>
+          <h2 id="institutions-title">Building Stronger Communities</h2>
+          <p>
+            Through education, healthcare, and community development,
+            we create opportunities for a brighter and more prosperous future.
+          </p>
+        </div>
+
+        <div class="row g-3 g-lg-4">
+
+          <!-- Education -->
+          <div class="col-12 col-md-4">
+            <article class="card institution-card education-card h-100 border-0 shadow-sm">
+              <div class="card-image-wrap">
+                <img class="card-image" src="education.jpg"
+                  alt="Students studying together in a classroom" />
+                <span class="circle-icon education-icon" aria-hidden="true">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </span>
+              </div>
+
+              <div class="card-body">
+                <h3>Education</h3>
+                <p>Quality education for brighter futures.</p>
+                <a class="card-link" href="#educationDetails"
+                  data-bs-toggle="modal" data-bs-target="#educationDetails">
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Healthcare -->
+          <div class="col-12 col-md-4">
+            <article class="card institution-card healthcare-card h-100 border-0 shadow-sm">
+              <div class="card-image-wrap">
+                <img class="card-image" src="health.jpg"
+                  alt="A healthcare professional providing medical care" />
+                <span class="circle-icon healthcare-icon" aria-hidden="true">
+                  <i class="bi bi-heart-pulse-fill"></i>
+                </span>
+              </div>
+
+              <div class="card-body">
+                <h3>Healthcare</h3>
+                <p>Accessible healthcare for healthier communities.</p>
+                <a class="card-link" href="#healthcareDetails"
+                  data-bs-toggle="modal" data-bs-target="#healthcareDetails">
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Religious and Community -->
+          <div class="col-12 col-md-4">
+            <article class="card institution-card community-card h-100 border-0 shadow-sm">
+              <div class="card-image-wrap">
+                <img class="card-image" src="mosque (1).jpg"
+                  alt="Mosque and community center" />
+                <span class="circle-icon community-icon" aria-hidden="true">
+                  <i class="bi bi-people-fill"></i>
+                </span>
+              </div>
+
+              <div class="card-body">
+                <h3>Religious &amp; Community</h3>
+                <p>Strengthening faith, values and community life.</p>
+                <a class="card-link" href="#communityDetails"
+                  data-bs-toggle="modal" data-bs-target="#communityDetails">
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="impact" id="impact" aria-label="Organization impact statistics">
+      <div class="container">
+        <div class="row g-0 row-cols-2 row-cols-md-4">
+
+          <div class="col impact-item">
+            <div class="impact-content">
+              <i class="bi bi-people-fill impact-symbol"></i>
+              <div><strong>25,000+</strong><span>People Benefited</span></div>
+            </div>
+          </div>
+
+          <div class="col impact-item">
+            <div class="impact-content">
+              <i class="bi bi-book-half impact-symbol"></i>
+              <div><strong>15+</strong><span>Educational Institutions</span></div>
+            </div>
+          </div>
+
+          <div class="col impact-item">
+            <div class="impact-content">
+              <i class="bi bi-heart-fill impact-symbol"></i>
+              <div><strong>10+</strong><span>Healthcare Initiatives</span></div>
+            </div>
+          </div>
+
+          <div class="col impact-item">
+            <div class="impact-content">
+              <i class="bi bi-people-fill impact-symbol"></i>
+              <div><strong>30+</strong><span>Community Projects</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="section news py-5" id="news" aria-labelledby="news-title">
+      <div class="container">
+
+        <div class="d-flex align-items-end justify-content-between gap-3 mb-4">
+          <div>
+            <div class="section-kicker">— LATEST NEWS</div>
+            <h2 id="news-title" class="mb-1">Recent Updates</h2>
+            <p class="text-secondary mb-0 small">
+              Stories from our institutions and communities
+            </p>
+          </div>
+
+          <a class="btn btn-outline-brand btn-sm flex-shrink-0" href="#news">
+            View All News <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+        </div>
+
+        <div class="row g-3">
+
+          <!-- News 1 -->
+          <div class="col-12 col-md-4">
+            <article class="news-card card border-0 shadow-sm h-100">
+              <img src="photo_2026-11-15_03-02-21.jpg" alt="Community visit group photograph" />
+              <div class="card-body">
+                <time datetime="2026-09-24">
+                  <i class="bi bi-calendar3 me-1"></i>September 24, 2026
+                </time>
+                <h3>Sheh Abdurahman Bin Mubarek (Abduujen) Visit Awelia!</h3>
+                <a href="#contact">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- News 2 -->
+          <div class="col-12 col-md-4">
+            <article class="news-card card border-0 shadow-sm h-100">
+              <img src="freeEyes.jpg" alt="Healthcare support initiative" />
+              <div class="card-body">
+                <time datetime="2026-09-16">
+                  <i class="bi bi-calendar3 me-1"></i>September 16, 2026
+                </time>
+                <h3>Free Eye Care in Partnership with the King Salman Humanitarian Aid Center</h3>
+                <a href="#contact">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- News 3 -->
+          <div class="col-12 col-md-4">
+            <article class="news-card card border-0 shadow-sm h-100">
+              <img src="diasporas.jpg" alt="Community development planning meeting" />
+              <div class="card-body">
+                <time datetime="2026-08-14">
+                  <i class="bi bi-calendar3 me-1"></i>August 14, 2026
+                </time>
+                <h3>Muslim Diaspora Delegation Visits Development Projects</h3>
+                <a href="#contact">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer pt-4 pb-3">
+    <div class="container">
+      <div class="row g-4 pb-4">
+
+        <div class="col-12 col-md-5">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="logo.jpg" class="footer-logo" alt="" />
+            <div>
+              <strong>Awelia Relief &amp; Development Organization</strong>
+              <small class="d-block">
+                Education • Healthcare • Community • A Brighter Future
+              </small>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 social-links  text-white">
+            <a href="#contact" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#contact" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#contact" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#contact" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#institutions">Institutions</a>
+          <a href="#impact">Programs</a>
+          <a href="#news">News</a>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h3>Our Focus</h3>
+          <a href="#institutions">Education</a>
+          <a href="#institutions">Healthcare</a>
+          <a href="#institutions">Community Development</a>
+          <a href="#institutions">Religious Affairs</a>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h3>Contact Us</h3>
+          <p class="mb-2">
+            <i class="bi bi-geo-alt-fill me-2"></i>Awelia, Ethiopia
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-envelope-fill me-2"></i>
+            Contact via our organization
+          </p>
+          <a class="btn btn-footer-donate mt-2"
+            href="mailto:info@awelia.org?subject=Donation%20Enquiry">
+            <i class="bi bi-heart-fill me-2"></i>Donate Now
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2 pt-3">
+        <small>© 2026 Awelia Relief &amp; Development Organization. Demo recreation.</small>
+        <small>People • Knowledge • Service for a Better Tomorrow</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Donate Button -->
+  <a href="mailto:info@awelia.org?subject=Donation%20Enquiry"
+     class="mobile-donate btn btn-brand d-lg-none">
+    <i class="bi bi-heart-fill me-2"></i>Donate Now
+  </a>
+
+  <!-- Bootstrap Modals -->
+  <div class="modal fade" id="educationDetails" tabindex="-1"
+    aria-labelledby="educationDetailsTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="educationDetailsTitle">Education</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Awelia's education focus aims to provide quality education and brighter futures for learners.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-brand" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="healthcareDetails" tabindex="-1"
+    aria-labelledby="healthcareDetailsTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="healthcareDetailsTitle">Healthcare</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Awelia's healthcare focus aims to make healthcare more accessible and build healthier communities.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-brand" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="communityDetails" tabindex="-1"
+    aria-labelledby="communityDetailsTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="communityDetailsTitle">Religious &amp; Community</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Awelia's community focus aims to strengthen faith, shared values, and community life.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-brand" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
